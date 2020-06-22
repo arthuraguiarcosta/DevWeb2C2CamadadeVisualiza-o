@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Visualizador API COVID 19</title>
+</head>
+<body>
+    <style>
+        .tableStyle{
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: DodgerBlue;
+            justify-content: space-evenly;
+        }
+        .indvTable{
+            background-color: #f1f1f1;
+            width: 100px;
+            margin: 100px;
+        }
+    </style>
+    <table id="tabelaDisplay">
+        <tr>
+            <td colspan="2">
+                Tabela de Cadastro - COVID 19
+            </td>            
+        </tr>
+        <tr>
+            <td width="80px">ID</td>
+            <td width="220px">Nome</td>
+            <td width="150px">E-mail</td>
+            <td width="150px">Telefone</td>
+            <td width="150px">Altura</td>
+            <td width="150px">Peso</td>
+            <td width="150px">Saúde</td>
+        </tr>
+        <tr id="pessoas">
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="7">------</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td colspan="2">
+                Adicionar pessoa:
+            </td>            
+        </tr>
+        <tr>
+            <tr>
+                <td width="60px">ID</td> <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="60px">Nome</td> <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="60px">E-mail</td> <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="60px">Telefone</td> <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="60px">Altura</td> <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="60px">Peso</td> <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td width="60px">Saúde</td> <td><input type="text"></td>
+            </tr>
+            <td>
+                <input type="submit" value="Adicionar">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">------</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Alterar pessoa:
+            </td>            
+        </tr>
+        <tr>
+            <td width="60px">ID</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Nome</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">E-mail</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Telefone</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Altura</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Peso</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Saúde</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Alterar">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">------</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Excluir pessoa:
+            </td>            
+        </tr>
+        <tr>
+            <td width="60px">ID</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Excluir">
+            </td>
+        </tr>
+        <tr>
+            <td width="60px">ID</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Nome</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">E-mail</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Telefone</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Altura</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Peso</td> <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td width="60px">Saúde</td> <td><input type="text"></td>
+        </tr>
+    </table>   
+    
+</body>
+</html>
